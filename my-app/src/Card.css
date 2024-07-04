@@ -1,0 +1,8 @@
+.custom-card {
+    width: 350px; /* Устанавливаем фиксированную ширину для карточек */
+    height: 533px; /* Устанавливаем фиксированную высоту для карточек */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

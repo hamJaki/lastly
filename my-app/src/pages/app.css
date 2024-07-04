@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.App-header {
+    margin-bottom: 20px;
+}
+
+.sketch-container {
+    border: 1px solid #000;
+    background-color: #fff;
+}

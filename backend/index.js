@@ -17,7 +17,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 app.use(bodyParser.json());
-app.use(cors({ origin: 'http://localhost:3000' })); // Allow requests from frontend
+app.use(cors({ origin: 'http://localhost:3001' })); // Allow requests from frontend
 
 const mongoURI = process.env.MONGO_URI || 'mongodb+srv://myUser:myPassword123@cluster0.mongodb.net/math-test-app?retryWrites=true&w=majority';
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
