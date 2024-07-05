@@ -7,7 +7,6 @@ import Question from './components/QuestionInterface';
 import Visualization from './pages/VisualizationPage';
 import TopicsList from './components/topicList';
 import TestPage from './pages/test';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
